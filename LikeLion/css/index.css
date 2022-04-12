@@ -1,0 +1,6 @@
+:root[colortheme='dark'] {
+    background: black;
+}
+:root[colortheme='light']{
+    background:white;
+}

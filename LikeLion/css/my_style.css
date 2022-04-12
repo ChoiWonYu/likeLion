@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+    color : white;
+}
+a:visited{
+    text-decoration: none;
+    color : white;
+}
+a:hover{
+    text-decoration: none;
+    text-shadow:5px 5px 3px #f7f79f; 
+    color : white;
+}
+a:active{
+    text-decoration: none;
+    text-shadow:5px 5px 3px #f7f79f; 
+    color : white;
+}
+body{
+    margin:0;
+    padding:0;
+    width:100vh;    
+    height: 100vh;
+    background-image: url('./images/moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text{
+ color : white;
+ font-size:5vh;
+ left:100px;
+ top:0px;
+ font-family: 'Playfair Display', serif;
+ position:absolute;
+}
+
+
+ul{
+    list-style: none;
+    
+}
+li{
+    margin:20px;
+}
